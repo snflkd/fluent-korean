@@ -1,0 +1,17 @@
+{
+  "name": "fluent-korean",
+  "owner": {
+    "name": "snflkd"
+  },
+  "metadata": {
+    "description": "유창한 한국어 출력 스타일 배포용 마켓플레이스",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "fluent-korean",
+      "source": "./plugins/fluent-korean",
+      "description": "Claude Code가 유창하고 자연스러운 한국어로 응답하게 하는 출력 스타일. 코딩 지침을 유지하는 판과 유지하지 않는 판을 제공합니다."
+    }
+  ]
+}
