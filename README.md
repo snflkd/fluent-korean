@@ -1,12 +1,11 @@
 # fluent-korean (Claude Code output-style)
 
-> **EN**: A Claude Code output style that stops Claude from writing broken machine-Korean: dropped particles and endings, telegraphic noun strings, and metaphor-swapped vocabulary. It prioritizes clear, unambiguous meaning over elegant prose, aiming for reasonably natural sentences. Ships as two variants: one that keeps Claude Code's coding instructions, and one without them. The guideline text itself can also be pasted into other AI environments as a plain writing instruction. Written by a Korean-literature major; the Korean parts of this README are human-written. If you're at Anthropic and want Claude to write proper Korean, the maintainer would love to hear from you.
-
 이 플러그인은 LLM, 특히 클로드와 코딩 에이전트가 명확한 한국어를 유창하게 구사하도록 지시하는 출력 스타일입니다.
 수려한 문체보다는 확실한 의미 전달을 추구하며, 비교적 자연스러운 문장을 목표로 합니다. 
 한국어로 명령을 입력하거나, 작업 결과물에 한국어가 포함된 경우에 유용합니다.
 클로드 코드 환경에 적합한 Plugin이지만, 글쓰기 지침에 해당하는 텍스트를 적절하게 활용하면 다른 AI에도 적용할 수 있습니다.
 
+> **EN**: A Claude Code output style that stops Claude from writing broken machine-Korean: dropped particles and endings, telegraphic noun strings, and metaphor-swapped vocabulary. It prioritizes clear, unambiguous meaning over elegant prose, aiming for reasonably natural sentences. Ships as two variants: one that keeps Claude Code's coding instructions, and one without them. The guideline text itself can also be pasted into other AI environments as a plain writing instruction. Written by a Korean-literature major; the Korean parts of this README are human-written. If you're at Anthropic and want Claude to write proper Korean, the maintainer would love to hear from you.
 
 ## 왜 필요한가
 
