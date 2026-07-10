@@ -1,0 +1,18 @@
+{
+  "name": "fluent-korean",
+  "version": "1.0.0",
+  "description": "Claude Code가 유창하고 자연스러운 한국어로 응답하게 하는 출력 스타일. 코딩 지침을 유지하는 판과 유지하지 않는 판 두 가지를 제공합니다.",
+  "author": {
+    "name": "snflkd",
+    "url": "https://github.com/snflkd"
+  },
+  "repository": "https://github.com/snflkd/fluent-korean",
+  "license": "MIT",
+  "keywords": [
+    "korean",
+    "한국어",
+    "output-style",
+    "fluent-korean",
+    "localization"
+  ]
+}
