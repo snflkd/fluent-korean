@@ -26,7 +26,7 @@ Claude Code 환경에 적합한 Plugin이지만, 글쓰기 지침에 해당하�
 
 기본 스타일의 문제점 :
 1. LLM의 답변과 보고를 이해하기 위해 많은 노력이 필요하며, 의미를 오해할 우려가 있습니다. 또한 한국어로 구성된 결과물의 완성도 역시 상당히 낮아집니다.
-2. 사고(추론) 기능이 활성화되어 있다면 저품질 한국어 문장과 표현이 사고 과정 자체에 부정적인 영향을 줄 수도 있습니다. 원리에 대한 추론과 설명을 원하신다면 *[원리 문서(작성중)](https://docs.google.com/document/d/1FGthxxrCVtjCfPG6qZSI-F0_DBOz6iNNlbVBUJ3xw2M/edit?usp=sharing)* 참고해주세요.
+2. 사고(추론) 기능이 활성화되어 있다면 저품질 한국어 문장과 표현이 사고 과정 자체에 부정적인 영향을 줄 수도 있습니다. 원리에 대한 추론과 설명을 원하신다면 *[원리 문서(작성 중)](https://docs.google.com/document/d/1FGthxxrCVtjCfPG6qZSI-F0_DBOz6iNNlbVBUJ3xw2M/edit?usp=sharing)* 참고해주세요.
 3. 에이전트들이 한국어로 프롬프트나 자료를 주고받는 환경(다중 에이전트, 하네스 등)에서는 이 한국어 품질 저하 현상이 단계마다 누적되며, 의미 손실이 작업 자체의 완성도 저하까지 이어질 수 있습니다. 
 
 
@@ -34,7 +34,7 @@ Claude Code 환경에 적합한 Plugin이지만, 글쓰기 지침에 해당하�
 
 ## 이 도구의 역할과 범위, 다른 도구와의 차이점
 
-1. 이 도구는 기본적으로 output-style이므로, 시스템 프롬프트에 추가되어 한국어를 올바르게 사용하도록 **사전에** 규율합니다. (왜 output-style을 사용하는지 궁금하시다면 *[원리 문서(작성중)](https://docs.google.com/document/d/1FGthxxrCVtjCfPG6qZSI-F0_DBOz6iNNlbVBUJ3xw2M/edit?usp=sharing)* 참고해주세요.)
+1. 이 도구는 기본적으로 output-style이므로, 시스템 프롬프트에 추가되어 한국어를 올바르게 사용하도록 **사전에** 규율합니다. (물론 필요에 따라 Skill 혹은 다른 방법으로도 사용하실 수 있습니다.)
 2. 이 도구는 의미가 손실되지 않는 명확한 한국어 표현을 목표로 합니다. 따라서 번역체 교정, AI 표현 최소화, 맞춤법 오류 제거와 같은 skill을 원하신다면 [im-not-ai](https://github.com/epoko77-ai/im-not-ai), [korean-skills](https://github.com/DaleSeo/korean-skills), [k-skill의 korean-humanizer](https://github.com/NomaDamas/k-skill/blob/main/docs/features/korean-humanizer.md)를 참조해주세요.
 
 
@@ -151,7 +151,7 @@ CLAUDE.md, 개인별 Claude 지침, 프로젝트 지침 등 파일이 아니라 
 
 ## 원리
 
-모델이 한국어를 왜 못 쓰는지, 얼마나 어떻게 못 쓰는지, 왜 잘 쓰게 하기 어려운지, 어떻게 교정하는지는 다음 문서에서 다룹니다. *[원리 문서(작성중)](https://docs.google.com/document/d/1FGthxxrCVtjCfPG6qZSI-F0_DBOz6iNNlbVBUJ3xw2M/edit?usp=sharing)*
+모델이 한국어를 왜 못 쓰는지, 얼마나 어떻게 못 쓰는지, 왜 잘 쓰게 하기 어려운지, 어떻게 교정하는지는 다음 문서에서 다룹니다. *[원리 문서(작성 중)](https://docs.google.com/document/d/1FGthxxrCVtjCfPG6qZSI-F0_DBOz6iNNlbVBUJ3xw2M/edit?usp=sharing)*
 
 어휘 Priming을 조절할 수 있도록, output-style을 지시하는 프롬프트 본문도 해당 지침을 최대한 준수하여 작성했습니다. (이 README는 약간만 준수했습니다.)
 
