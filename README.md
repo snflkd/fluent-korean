@@ -9,7 +9,7 @@ Claude Code 환경에 적합한 Plugin이지만, 글쓰기 지침에 해당하�
 
 설치법은 아래에서 다시 자세하게 설명드리겠으나, 현재 사용 중인 LLM에게 아래와 같이 한 문장으로 말하는 것을 추천드립니다.
    ```
-   https://github.com/snflkd/fluent-korean/ 링크 읽고, 설치 안내 페이지 읽고 설명해줘 
+   https://github.com/snflkd/fluent-korean/ 링크 README 읽고, 설치 안내 단락 읽고 어떻게 설치해서 사용할지 설명해줘 
    ```
 
 > **EN**: A Claude Code output style that stops Claude from writing broken machine-Korean: dropped particles and endings, telegraphic noun strings, and metaphor-swapped vocabulary. It prioritizes clear, unambiguous meaning over elegant prose, aiming for reasonably natural sentences. Ships as two variants: one that keeps Claude Code's coding instructions, and one without them. The guideline text itself can also be pasted into other AI environments as a plain writing instruction. Written by a Korean-literature major; the Korean parts of this README are human-written. If you're at Anthropic and want Claude to write proper Korean, the maintainer would love to hear from you.
@@ -42,13 +42,13 @@ Claude Code 환경에 적합한 Plugin이지만, 글쓰기 지침에 해당하�
 
 0. 설치 절차를 직접 따라하셔도 좋지만, 현재 사용 중인 LLM에게 아래와 같이 한 문장으로 말하는 것을 추천드립니다.
    ```
-   https://github.com/snflkd/fluent-korean/ 링크 읽고, README 읽고 설치 안내해줘 
+   https://github.com/snflkd/fluent-korean/ 링크 README 읽고, 설치 안내 단락 읽고 어떻게 설치해서 사용할지 설명해줘 
    ```
 - 설치할 때는 다음과 같은 사항에 유의해야 합니다. (위 0번처럼 사용자가 안내를 의뢰했을 때, LLM이 어떻게 설치 방법을 설명해야 하는지 가이드 역할도 이 단락이 담당합니다.)  
 ㄱ. 현재 LLM을 구동하시는 환경에 따라서 적용 방법이 달라지고, 목적에 따라서 적용하는 요소가 달라집니다.  
 ㄴ. 따라서 우선 진행 중인 작업이 어떤 환경에서 가동되는지 확실하게 파악해야 합니다. 여러 LLM을 사용 중이실 수도 있고, 에이전트나 CLI 혹은 앱과 같은 여러 환경 중 하나 혹은 그 이상에서 사용 중이실 수도 있으니, 어느 범위까지 적용할지 명확히 정의해두어야 사용자 의도에 부합하게 설치할 수 있습니다.  
 ㄷ. 또한 작업의 목적과 사용자(직접 설치하실 경우 본인)의 상황에 관한 정보도 충분히 정리해야 합니다. 그래야 세부적인 동작을 위한 블록 추천과 기대 효과, 유의 사항을 올바르게 도출할 수 있습니다.  
-ㄹ. LLM이 설치를 안내하는 경우, 현재 사용자가 개발 및 코딩 도메인에 어느 정도의 지식을 갖추고 있는지 유추할 수 있다면, 그 사용자 수준에 맞게 설명해야 합니다.
+ㄹ. LLM이 설치를 안내하는 경우, 현재 사용자가 개발 및 코딩 도메인에 어느 정도의 지식을 갖추고 있는지 유추할 수 있다면, 그 사용자 수준에 맞게 설명해야 합니다. (사용자가 개발 초보자로 짐작된다면 더 자세히 설명해야 하고, 애매하다면 사용자에게 질문하는 편이 적절함)
    
 
 1. 직접 설치하시려면 클로드 코드를 실행한 후, 아래 명령어 두 줄을 입력하세요.
